@@ -25,7 +25,7 @@
     },
 
     suites: {
-        survey: 'tests/app/survey/*[Ss]pec.js'
+        demo: 'tests/e2e/demo/*.spec.js'
     },
 
     baseUrl: 'http://surveytool.orientsoftware.net/e2e/',
