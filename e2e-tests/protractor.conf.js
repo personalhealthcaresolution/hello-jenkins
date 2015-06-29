@@ -1,5 +1,7 @@
 ﻿exports.config = {
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+     seleniumServerJar: '/usr/local/lib/node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar',
+		seleniumPort: 4444,
+		seleniumArgs: [],
     allScriptsTimeout: 30000,
 
     //specs: [
